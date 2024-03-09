@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Логин</title>
+    <link href="/static/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Привет, пользователь {{ data.name }}</h1>
+    <form action="/logout" method="post" class="form-example">
+      <div class="form-example">
+        <input type="submit" value="выйти" class="input" />
+      </div>
+    </form>
+  </body>
+</html>
